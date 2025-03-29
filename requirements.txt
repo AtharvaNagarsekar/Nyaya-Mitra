@@ -1,6 +1,6 @@
 streamlit
 litellm
-crewai==0.108.0
+crewai
 PyPDF2
 python-docx
-chromadb==0.6.3
+chromadb
