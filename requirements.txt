@@ -1,0 +1,6 @@
+streamlit
+litellm
+crewai  
+crew
+PyPDF2
+python-docx
