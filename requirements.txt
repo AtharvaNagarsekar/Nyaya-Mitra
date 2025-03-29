@@ -4,3 +4,4 @@ crewai==0.108.0
 PyPDF2==3.0.1
 python-docx==1.1.2
 chromadb[hnswlib]>=0.5.23
+duckdb>=0.8.0 
