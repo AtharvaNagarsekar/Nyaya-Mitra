@@ -1,7 +1,6 @@
-streamlit==1.44.0
-litellm==1.60.2
+streamlit
+litellm
 crewai==0.108.0
-crew==0.9.2
-PyPDF2==3.0.1
-python-docx==1.1.2
+PyPDF2
+python-docx
 chromadb==0.4.18
