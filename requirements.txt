@@ -1,6 +1,6 @@
 streamlit
 litellm
-crewai  
+crewai>=0.28.0
 crew
 PyPDF2
 python-docx
