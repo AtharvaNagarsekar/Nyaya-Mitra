@@ -5,3 +5,5 @@ crew
 PyPDF2
 python-docx
 pysqlite3-binary
+chromadb
+
