@@ -7,6 +7,11 @@ from agents import (legal_researcher, legal_summarizer, contract_drafter, legal_
                    document_reviewer, case_predictor)
 from tasks import (research_task, summarize_task, contract_drafting_task, legal_advice_task,
                   document_review_task, case_prediction_task)
+import chromadb
+client = chromadb.Client(chromadb.Settings(
+    chroma_db_impl="duckdb+parquet",
+    persist_directory=".chromadb"
+))
 os.makedirs('outputs', exist_ok=True)
 
 st.set_page_config(
