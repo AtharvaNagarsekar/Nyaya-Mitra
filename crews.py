@@ -7,7 +7,8 @@ from agents import (legal_researcher, legal_summarizer, contract_drafter, legal_
                    document_reviewer, case_predictor)
 from tasks import (research_task, summarize_task, contract_drafting_task, legal_advice_task,
                   document_review_task, case_prediction_task)
-
+import sys
+sys.modules["sqlite3"] = __import__("pysqlite3")
 os.makedirs('outputs', exist_ok=True)
 
 st.set_page_config(
